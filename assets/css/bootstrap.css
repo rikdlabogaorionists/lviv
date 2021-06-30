@@ -4073,14 +4073,14 @@ fieldset:disabled .btn {
 
 /* line 65, src/assets/scss/_buttons.scss */
 .btn-outline-primary {
-  color: #F49828;
-  border-color: #F49828;
+  color: #EF4332;
+  border-color: #EF4332;
 }
 
 /* line 85, src/assets/scss/mixins/_buttons.scss */
 .btn-outline-primary:hover {
   color: #f6f9fe;
-  background-color: #F49828;
+  background-color: #EF4332;
   border-color: #ffffff;
 }
 

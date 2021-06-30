@@ -83,6 +83,15 @@ p, a {
   margin-left: -75px;
 }
 
+.church_icon {
+  width: 100px;
+}
+
+.reason {
+  font-size: 24px;
+  margin: 20px;
+}
+
 /* Main Nav */
 #main_nav .nav-item .nav-link:hover {
   color: #fff;
@@ -90,7 +99,7 @@ p, a {
 
 /* Home */
 #index_banner {
-  background-image: url("./../img/flower2.jpg");
+  background-image: url("./../img/church_blur.jpg");
   background-position: center center;
   background-size: cover;
   height: 100%;

@@ -5,6 +5,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 /* line 1, src/assets/scss/_root.scss */
+
+$nav_button: #EF4332;
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -4068,14 +4071,14 @@ fieldset:disabled .btn {
 
 /* line 65, src/assets/scss/_buttons.scss */
 .btn-outline-primary {
-  color: #F49828;
-  border-color: #F49828;
+  color: $nav_button;
+  border-color: $nav_button;
 }
 
 /* line 85, src/assets/scss/mixins/_buttons.scss */
 .btn-outline-primary:hover {
   color: #f6f9fe;
-  background-color: #F49828;
+  background-color: $nav_button;
   border-color: #ffffff;
 }
 

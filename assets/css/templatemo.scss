@@ -74,11 +74,30 @@ p, a {font-weight: 400;}
   left: 50%;
   margin-left: -75px;
 }
+
+
+
+// list of reasons
+
+
+// icon
+.church_icon{
+  width:100px;
+}
+.reason{
+  font-size: 24px;
+  margin: 20px;
+}
+
+
+
+
+
 /* Main Nav */
 #main_nav .nav-item .nav-link:hover {color: #fff;}
 /* Home */
 #index_banner {
-  background-image: url('./../img/flower2.jpg');
+  background-image: url('./../img/church_blur.jpg');
   background-position: center center; background-size: cover;
   height: 100%;
   min-height: 60vh;
