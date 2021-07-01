@@ -3932,21 +3932,21 @@ fieldset:disabled .btn {
 
 /* line 59, src/assets/scss/_buttons.scss */
 .btn-danger {
-  color: #000;
+  color: white;
   background-color: #dc3545;
   border-color: #dc3545;
 }
 
 /* line 25, src/assets/scss/mixins/_buttons.scss */
 .btn-danger:hover {
-  color: #000;
+  color: white;
   background-color: #e15361;
   border-color: #e04958;
 }
 
 /* line 31, src/assets/scss/mixins/_buttons.scss */
 .btn-check:focus + .btn-danger, .btn-danger:focus {
-  color: #000;
+  color: white;
   background-color: #e15361;
   border-color: #e04958;
   -webkit-box-shadow: 0 0 0 0.25rem rgba(187, 45, 59, 0.5);
@@ -3957,7 +3957,7 @@ fieldset:disabled .btn {
 .btn-check:checked + .btn-danger,
 .btn-check:active + .btn-danger, .btn-danger:active, .btn-danger.active,
 .show > .btn-danger.dropdown-toggle {
-  color: #000;
+  color: white;
   background-color: #e35d6a;
   border-color: #e04958;
 }
@@ -3972,7 +3972,7 @@ fieldset:disabled .btn {
 
 /* line 65, src/assets/scss/mixins/_buttons.scss */
 .btn-danger:disabled, .btn-danger.disabled {
-  color: #000;
+  color: white;
   background-color: #dc3545;
   border-color: #dc3545;
 }
@@ -4073,14 +4073,14 @@ fieldset:disabled .btn {
 
 /* line 65, src/assets/scss/_buttons.scss */
 .btn-outline-primary {
-  color: #EF4332;
-  border-color: #EF4332;
+  color: #F49828;
+  border-color: #F49828;
 }
 
 /* line 85, src/assets/scss/mixins/_buttons.scss */
 .btn-outline-primary:hover {
   color: #f6f9fe;
-  background-color: #EF4332;
+  background-color: #F49828;
   border-color: #ffffff;
 }
 
@@ -9611,7 +9611,7 @@ fieldset:disabled .btn {
 
 /* line 50, src/assets/scss/mixins/_utilities.scss */
 .bg-secondary {
-  background-color: #6266ea !important;
+  background-color: #ef42329a !important;
 }
 
 /* line 50, src/assets/scss/mixins/_utilities.scss */
