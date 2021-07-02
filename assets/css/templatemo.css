@@ -101,6 +101,15 @@ p, a {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #DC3545;
+}
+
 /* Main Nav */
 #main_nav .nav-item .nav-link:hover {
   color: #fff;
@@ -298,8 +307,9 @@ footer a.text-light:hover {
   -ms-flex-direction: column;
   flex-direction: column;
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border: 10px solid black;
+  border-radius: 31px;
+  margin-bottom: 20px;
 }
 
 .card-block {
@@ -310,6 +320,14 @@ footer a.text-light:hover {
 }
 
 .card-title {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 5px;
   margin-bottom: 0.75rem;
 }
 
@@ -414,8 +432,8 @@ footer a.text-light:hover {
 }
 
 .card-danger {
-  background-color: #d9534f;
-  border-color: #d9534f;
+  background-color: #DC3545;
+  border-color: #DC3545;
 }
 
 .card-danger .card-header,
@@ -450,7 +468,7 @@ footer a.text-light:hover {
 
 .card-outline-danger {
   background-color: transparent;
-  border-color: #d9534f;
+  border-color: #DC3545;
 }
 
 .card-inverse {
@@ -488,7 +506,7 @@ footer a.text-light:hover {
 }
 
 .card-img {
-  border-radius: calc(0.25rem - 1px);
+  border-radius: 20px;
 }
 
 .card-img-overlay {
