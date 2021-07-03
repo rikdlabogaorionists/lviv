@@ -82,9 +82,14 @@ p, a {font-weight: 400;}
 
 
 // icon
+.reasons{
+  padding-left: 50px;
+}
+
 .church_icon{
   width:100px;
 }
+
 .reason{
   font-size: 24px;
   margin: 20px;
@@ -109,6 +114,21 @@ a{
 
 a:hover{
   color: $danger_color;
+}
+
+.center{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.price{
+  text-indent: 25px;
+  line-height: 50px;
+}
+
+.docs{
+  font-size: 20px;
+  margin: 10px;
 }
 
 
