@@ -87,6 +87,10 @@ p, a {
   padding-left: 50px;
 }
 
+.alignment {
+  text-align: right;
+}
+
 .church_icon {
   width: 100px;
 }
@@ -127,6 +131,34 @@ a:hover {
 .docs {
   font-size: 20px;
   margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .banner-content {
+    margin-top: -50px;
+  }
+  .title_body {
+    font-size: 24px;
+  }
+  .banner-body {
+    font-size: 18px;
+  }
+  .alignment {
+    text-align: center;
+  }
+  .reason {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .about-program {
+    font-size: 26px;
+  }
+  .price_size {
+    font-size: 30px;
+  }
+  .price {
+    font-size: 16px;
+  }
 }
 
 /* Main Nav */
