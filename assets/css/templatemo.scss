@@ -127,6 +127,10 @@ a:hover{
   margin-bottom: auto;
 }
 
+.abzac{
+  text-indent: 25px;
+}
+
 .price{
   text-indent: 25px;
   line-height: 50px;
@@ -167,6 +171,23 @@ a:hover{
 }
 
 
+
+.image_form{
+
+  width: 100%;
+  transition: all .4s ease-in-out;
+}
+
+.image_form:hover { transform: scale(1.1); 
+}
+
+.temp{
+  overflow: hidden;
+  border: black 5px solid;
+}
+
+
+
 /* Main Nav */
 #main_nav .nav-item .nav-link:hover {color: #fff;}
 /* Home */
@@ -177,6 +198,15 @@ a:hover{
   min-height: 60vh;
   width: 100%;
 }
+
+#index_banner_about {
+  background-image: url('./../img/church_flat.jpg');
+  background-position: center center; background-size: cover;
+  height: 100%;
+  min-height: 60vh;
+  width: 100%;
+}
+
 #index_banner .carousel-item {
   min-height: 60vh;
 }
