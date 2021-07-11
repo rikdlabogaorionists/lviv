@@ -137,6 +137,11 @@ a:hover {
   margin: 10px;
 }
 
+.formation_intro {
+  text-indent: 25px;
+  line-height: 30px;
+}
+
 @media screen and (max-width: 600px) {
   .banner-content {
     margin-top: -50px;
@@ -161,6 +166,12 @@ a:hover {
     font-size: 30px;
   }
   .price {
+    font-size: 16px;
+  }
+  .docs {
+    font-size: 16px;
+  }
+  .formation_intro {
     font-size: 16px;
   }
 }
